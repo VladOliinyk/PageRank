@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    height: 100vh;
+    min-width: 1280px;
+}
+
+.contentBlock {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+#navigation {
+    min-height: 100px;
+    height: 100px;
+    background-color: #dfe6ed;
+}
+
+#content {
+    min-height: 100px;
+    height: 100%;
+    background-color: #d2d8df;
+}
+
+#inputDiv {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    height: 150px;
+}
+
+.input {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+
+    border: none;
+}
+
+input[type=button] {
+    background: linear-gradient(to top, #f1f1f1, #e8e8e8);
+}
+input[type=button]:hover {
+    background: linear-gradient(to top, #e8e8e8, #f1f1f1);
+}
+
+.inputButton {
+    width: 50px;
+}
+
+.reSetButtons {
+    width: 100px;
+}
+
+
+.logicButton {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+
+    border: none;
+
+    margin: 10px 3px;
+    width: 200px;
+}
+
+#calculateButton {
+    opacity: 0.3;
+}
+
+
+
+
+#sigmaContainer {
+    min-width: 700px;
+    min-height: 600px;
+}
+
+.coolShadow {
+    -webkit-box-shadow: 0px 0px 80px -20px rgba(31, 31, 31, 1);
+    -moz-box-shadow: 0px 0px 80px -20px rgba(31, 31, 31, 1);
+    box-shadow: 0px 0px 80px -20px rgba(31, 31, 31, 1);
+}
+
+.coolShadowSmall {
+    -webkit-box-shadow: 0px 0px 20px -5px rgba(31,31,31,0.5);
+    -moz-box-shadow: 0px 0px 20px -5px rgba(31,31,31,0.5);
+    box-shadow: 0px 0px 20px -5px rgba(31,31,31,0.5);
+}
+
+#clearButton {
+    width: 5%;
+    min-width: 100px;
+    color: #dd1111;
+}
+
+#generateButton {
+    width: 50%;
+    min-width: 300px;
+}
+
+.navBlock {
+    float: left;
+    width: 50%;
+}
+
+#container {
+    min-width: 700px;
+    width: 80%;
+    min-height: 600px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+#stats {
+    width: 20%;
+    min-width: 250px;
+    height: 400px;
+    background-color: #f1f1f1;
+}
+
+#statsResults > p {
+    padding: 10px 0 0 20%;
+}
+
+#statsResults {
+    overflow-y: scroll;
+}
+
+.title {
+    width: 100%;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bottomContent {
+    float: left;
+}
