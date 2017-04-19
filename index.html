@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+
+    <title>Custom Page Rank </title>
+
+
+    <script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./jquery.color.js"></script>
+
+    <script type="text/javascript" src="./sigma.min.js"></script>
+    <script type="text/javascript" src="./sigma.parsers.json.min.js"></script>
+    <!--<script type="text/javascript" src="./sigma.renderers.customEdgeShapes.min.js"></script>-->
+    <!--<script type="text/javascript" src="./sigma.renderers.customShapes.min.js"></script>-->
+
+
+    <script type="text/javascript" src="./script.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+
+
+<div id="content">
+
+    <div id="inputDiv" class="contentBlock coolShadow">
+
+        <div class="navBlock">
+            <span> Items count: </span>
+            <br>
+            <input type="button" id="ltemsCountInputButtonReset" class="input inputButton reSetButtons" value="Reset">
+            <input type="button" id="ltemsCountInputButtonMinus5" class="input inputButton" value="-5">
+            <input type="button" id="ltemsCountInputButtonMinus1" class="input inputButton" value="-1">
+            <input disabled type="number" id="itemsCountInput" class="input" placeholder="Items count" value="7">
+            <input type="button" id="ltemsCountInputButtonPlus1" class="input inputButton" value="+1">
+            <input type="button" id="ltemsCountInputButtonPlus5" class="input inputButton" value="+5">
+            <input type="button" id="ltemsCountInputButtonMax" class="input inputButton reSetButtons" value="Set max">
+        </div>
+        <div class="navBlock">
+            <span> Links density: </span>
+            <br>
+            <input type="button" id="densityInoutButtonReset" class="input inputButton reSetButtons" value="Reset">
+            <input type="button" id="densityInoutButtonMinus" class="input inputButton" value="-1">
+            <input disabled type="number" id="densityInput" class="input" placeholder="Density 0..10" value="5">
+            <input type="button" id="densityInoutButtonPlus" class="input inputButton" value="+1">
+            <input type="button" id="densityInoutButtonMax" class="input inputButton reSetButtons" value="Set max">
+        </div>
+        <br>
+        <div class="logicButtonsDiv">
+            <input type="button" id="generateButton" class="logicButton coolShadowSmall" value="Generate">
+            <input type="button" id="clearButton" class="logicButton" value="Clear">
+            <!--<input disabled type="button" id="calculateButton" class="logicButton coolShadowSmall" value="Calculate">-->
+        </div>
+
+
+    </div>
+
+    <div id="container" class="contentBlock coolShadow bottomContent =">
+    </div>
+    <div id="stats" class="contentBlock coolShadow bottomContent">
+
+        <div class="title"> Results: </div>
+
+        <div id="statsResults">
+
+        </div>
+    </div>
+
+
+
+</div>
+
+</body>
+</html>
